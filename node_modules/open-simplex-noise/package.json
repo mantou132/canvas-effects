@@ -1,0 +1,31 @@
+{
+  "name": "open-simplex-noise",
+  "version": "1.4.1",
+  "description": "OpenSimplex noise for TypeScript/JavaScript",
+  "keywords": [
+    "noise",
+    "open-simplex-noise",
+    "procedural-generation",
+    "simplex-noise"
+  ],
+  "homepage": "https://github.com/joshforisha/open-simplex-noise-js#readme",
+  "author": "Josh Forisha <josh@forisha.com>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshforisha/open-simplex-noise-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshforisha/open-simplex-noise-js/issues"
+  },
+  "main": "lib/index",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "format": "prettier --parser typescript --single-quote --write src/*.ts",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
+}

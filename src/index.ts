@@ -1,7 +1,7 @@
-import Constellations from './Constellations';
-import Polygonal from './Polygonal';
+import { Constellations } from "canvas-effects"
 
-export {
-	Constellations,
-	Polygonal
-}
+const foo = new Constellations({
+	container: "#foo",
+	width: "100%",
+	height: "100%"
+});

@@ -1,33 +1,19 @@
 {
-  "name": "canvas-effects",
-  "description": "modular canvas visualizations",
-  "version": "0.1.6",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server",
-    "build": "rm -r ./lib; ./node_modules/.bin/tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/getmicah/canvas-effects.git"
-  },
-  "author": "Micah Cowell",
+  "name": "canvas-effects-demo",
+  "version": "1.0.0",
+  "main": "index.hmtl",
+  "repository": "git@github.com:getmicah/canvas-effects.git",
+  "author": "Micah Cowell <micahcowell@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/getmicah/canvas-effects/issues"
+  "scripts": {
+    "start": "./node_modules/.bin/webpack"
   },
-  "homepage": "https://github.com/getmicah/canvas-effects#readme",
   "devDependencies": {
-    "awesome-typescript-loader": "^3.2.3",
-    "source-map-loader": "^0.2.3",
-    "typescript": "^2.5.3",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
   },
   "dependencies": {
-    "@types/delaunator": "^1.0.0",
-    "delaunator": "^1.0.4",
-    "open-simplex-noise": "^1.4.0"
+    "canvas-effects": "^0.1.6"
   }
 }
