@@ -27,5 +27,13 @@ module.exports = {
 				warnings: false
 			}
 		})
-	]
+	],
+
+	devServer: {
+		inline: true,
+		port: 8080,
+		historyApiFallback: {
+			index: 'index.html'
+		}
+	}
 };

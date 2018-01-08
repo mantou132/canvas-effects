@@ -6,12 +6,14 @@
   "author": "Micah Cowell <micahcowell@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/webpack"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.4.1",
     "typescript": "^2.6.2",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "2.7.1"
   },
   "dependencies": {
     "canvas-effects": "^0.1.6"

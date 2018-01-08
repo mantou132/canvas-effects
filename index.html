@@ -5,9 +5,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>canvas-effects-demo</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: sans-serif;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav {
+			position: fixed;
+			background: rgb(255, 255, 255);
+			padding: 1em;
+		}
+		#constellations {
+			background: rgb(22, 22, 22);
+		}
+	</style>
 </head>
 <body>
-	<div id="foo"></div>
+	<nav>
+		<h1>canvas-effects</h1>
+		<ul>
+			<li><a href="#constellations">constellations</a></li>
+			<li><a href="#polygonal">polygonal</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="effect" id="constellations"></div>
+		<div class="effect" id="polygonal"></div>
+	</main>
 	<script src="./dist/bundle.min.js"></script>
 </body>
 </html>
